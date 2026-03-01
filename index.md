@@ -194,7 +194,7 @@ title: TempoDeck | Stage-Ready Tempo Control
 <section class="bottom-cta" id="cta">
   <div class="bottom-cta-inner">
     <h2>Ready to map your next set?</h2>
-    <p>Scan, tap, and get TempoDeck on your device. QR code and App Store link can be dropped in here.</p>
+    <p>Download TempoDeck and bring your tempo maps, cues, and setlists to rehearsal and stage.</p>
     <div class="bottom-cta-actions is-hidden">
       <div class="placeholder qr">QR Code Area</div>
       <a href="#" class="btn-neon app-store-placeholder" aria-disabled="true">App Store Link</a>
