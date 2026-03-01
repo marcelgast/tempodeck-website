@@ -1,0 +1,11 @@
+title: TempoDeck
+email: info@marcelgast.com
+description: Stage-ready tempo control app for bands and players.
+baseurl: ""
+url: ""
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
