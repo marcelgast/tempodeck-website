@@ -79,6 +79,8 @@ p {
   min-height: 100vh;
   padding: 1.5rem;
   isolation: isolate;
+  display: flex;
+  align-items: center;
 }
 
 .hero-backdrop {
@@ -90,8 +92,8 @@ p {
   z-index: 1;
   max-width: 1180px;
   margin: 0 auto;
-  min-height: calc(100vh - 3rem);
-  padding: 2.2rem;
+  min-height: clamp(620px, 82vh, 760px);
+  padding: 1.8rem 2.2rem;
   border: 1px solid var(--line);
   border-radius: var(--radius-xl);
   background: var(--content-bg);
