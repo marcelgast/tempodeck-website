@@ -3,3 +3,17 @@ vendor/
 _site/
 .jekyll-cache/
 .sass-cache/
+.jekyll-metadata
+
+# macOS
+.DS_Store
+._*
+
+# Editors/IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
