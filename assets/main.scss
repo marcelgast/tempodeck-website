@@ -130,6 +130,39 @@ p {
   justify-items: center;
 }
 
+.download-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.9rem;
+}
+
+.download-badge img {
+  height: 56px;
+  width: auto;
+  display: block;
+  filter: drop-shadow(0 0 10px rgba(189, 106, 255, 0.35));
+}
+
+.download-qr {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  border-radius: 14px;
+  background: #ffffff;
+  border: 1px solid rgba(203, 129, 255, 0.5);
+  box-shadow: 0 0 18px rgba(189, 106, 255, 0.35);
+}
+
+.download-qr img {
+  height: 112px;
+  width: 112px;
+  display: block;
+  border-radius: 10px;
+}
+
 .is-hidden {
   display: none !important;
 }
@@ -609,10 +642,24 @@ p {
   border-radius: 22px;
   padding: 1.6rem;
   background: var(--content-bg);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
   box-shadow:
     0 0 0 1px rgba(203, 129, 255, 0.14),
     0 0 34px rgba(203, 129, 255, 0.28),
     inset 0 0 34px rgba(166, 77, 255, 0.14);
+}
+
+.bottom-cta-content {
+  flex: 1 1 420px;
+  min-width: 0;
+}
+
+.bottom-cta-actions {
+  justify-content: flex-end;
 }
 
 .bottom-cta h2 {

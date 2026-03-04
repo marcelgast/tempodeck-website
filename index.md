@@ -12,10 +12,14 @@ title: TempoDeck | Stage-Ready Tempo Control
       Build click-aware song maps, shape cue flows, and keep every transition confident without overcomplicating your setup.
       Available on macOS, iPad, and iPhone.
     </p>
-    <div class="hero-cta-wrap is-hidden">
-      <div class="hero-cta-placeholders">
-        <div class="placeholder qr">QR Code Area</div>
-        <div class="placeholder store">App Store Link Area</div>
+    <div class="hero-cta-wrap">
+      <div class="download-actions">
+        <a class="download-badge" href="https://apple.co/3N5b3cJ" target="_blank" rel="noopener noreferrer">
+          <img src="{{ '/assets/images/app-store-badge.svg' | relative_url }}" alt="Download on the App Store">
+        </a>
+        <a class="download-qr" href="https://apple.co/3N5b3cJ" target="_blank" rel="noopener noreferrer">
+          <img src="{{ '/assets/images/qr-code.png' | relative_url }}" alt="TempoDeck App Store QR code">
+        </a>
       </div>
     </div>
     <div class="hero-highlights">
@@ -193,11 +197,19 @@ title: TempoDeck | Stage-Ready Tempo Control
 
 <section class="bottom-cta" id="cta">
   <div class="bottom-cta-inner">
-    <h2>Ready to map your next set?</h2>
-    <p>Download TempoDeck and bring your tempo maps, cues, and setlists to rehearsal and stage.</p>
-    <div class="bottom-cta-actions is-hidden">
-      <div class="placeholder qr">QR Code Area</div>
-      <a href="#" class="btn-neon app-store-placeholder" aria-disabled="true">App Store Link</a>
+    <div class="bottom-cta-content">
+      <h2>Ready to map your next set?</h2>
+      <p>Download TempoDeck and bring your tempo maps, cues, and setlists to rehearsal and stage.</p>
+    </div>
+    <div class="bottom-cta-actions">
+      <div class="download-actions">
+        <a class="download-badge" href="https://apple.co/3N5b3cJ" target="_blank" rel="noopener noreferrer">
+          <img src="{{ '/assets/images/app-store-badge.svg' | relative_url }}" alt="Download on the App Store">
+        </a>
+        <a class="download-qr" href="https://apple.co/3N5b3cJ" target="_blank" rel="noopener noreferrer">
+          <img src="{{ '/assets/images/qr-code.png' | relative_url }}" alt="TempoDeck App Store QR code">
+        </a>
+      </div>
     </div>
   </div>
 </section>
